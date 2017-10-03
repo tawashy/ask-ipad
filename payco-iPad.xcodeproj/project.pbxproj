@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62587F811F833C7200862746 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62587F801F833C7200862746 /* AppDelegate.swift */; };
+		62587F831F833C7200862746 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62587F821F833C7200862746 /* ViewController.swift */; };
+		62587F861F833C7200862746 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62587F841F833C7200862746 /* Main.storyboard */; };
+		62587F881F833C7200862746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62587F871F833C7200862746 /* Assets.xcassets */; };
+		62587F8B1F833C7200862746 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62587F891F833C7200862746 /* LaunchScreen.storyboard */; };
+		62587F961F833C7200862746 /* payco_iPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62587F951F833C7200862746 /* payco_iPadTests.swift */; };
+		62587FA11F833C7200862746 /* payco_iPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62587FA01F833C7200862746 /* payco_iPadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62587F921F833C7200862746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62587F751F833C7200862746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62587F7C1F833C7200862746;
+			remoteInfo = "payco-iPad";
+		};
+		62587F9D1F833C7200862746 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62587F751F833C7200862746 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62587F7C1F833C7200862746;
+			remoteInfo = "payco-iPad";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62587F7D1F833C7200862746 /* payco-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "payco-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62587F801F833C7200862746 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62587F821F833C7200862746 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62587F851F833C7200862746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62587F871F833C7200862746 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62587F8A1F833C7200862746 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62587F8C1F833C7200862746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62587F911F833C7200862746 /* payco-iPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "payco-iPadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62587F951F833C7200862746 /* payco_iPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = payco_iPadTests.swift; sourceTree = "<group>"; };
+		62587F971F833C7200862746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62587F9C1F833C7200862746 /* payco-iPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "payco-iPadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62587FA01F833C7200862746 /* payco_iPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = payco_iPadUITests.swift; sourceTree = "<group>"; };
+		62587FA21F833C7200862746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62587F7A1F833C7200862746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62587F8E1F833C7200862746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62587F991F833C7200862746 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62587F741F833C7200862746 = {
+			isa = PBXGroup;
+			children = (
+				62587F7F1F833C7200862746 /* payco-iPad */,
+				62587F941F833C7200862746 /* payco-iPadTests */,
+				62587F9F1F833C7200862746 /* payco-iPadUITests */,
+				62587F7E1F833C7200862746 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62587F7E1F833C7200862746 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62587F7D1F833C7200862746 /* payco-iPad.app */,
+				62587F911F833C7200862746 /* payco-iPadTests.xctest */,
+				62587F9C1F833C7200862746 /* payco-iPadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62587F7F1F833C7200862746 /* payco-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				62587F801F833C7200862746 /* AppDelegate.swift */,
+				62587F821F833C7200862746 /* ViewController.swift */,
+				62587F841F833C7200862746 /* Main.storyboard */,
+				62587F871F833C7200862746 /* Assets.xcassets */,
+				62587F891F833C7200862746 /* LaunchScreen.storyboard */,
+				62587F8C1F833C7200862746 /* Info.plist */,
+			);
+			path = "payco-iPad";
+			sourceTree = "<group>";
+		};
+		62587F941F833C7200862746 /* payco-iPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				62587F951F833C7200862746 /* payco_iPadTests.swift */,
+				62587F971F833C7200862746 /* Info.plist */,
+			);
+			path = "payco-iPadTests";
+			sourceTree = "<group>";
+		};
+		62587F9F1F833C7200862746 /* payco-iPadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62587FA01F833C7200862746 /* payco_iPadUITests.swift */,
+				62587FA21F833C7200862746 /* Info.plist */,
+			);
+			path = "payco-iPadUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62587F7C1F833C7200862746 /* payco-iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62587FA51F833C7200862746 /* Build configuration list for PBXNativeTarget "payco-iPad" */;
+			buildPhases = (
+				62587F791F833C7200862746 /* Sources */,
+				62587F7A1F833C7200862746 /* Frameworks */,
+				62587F7B1F833C7200862746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "payco-iPad";
+			productName = "payco-iPad";
+			productReference = 62587F7D1F833C7200862746 /* payco-iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62587F901F833C7200862746 /* payco-iPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62587FA81F833C7200862746 /* Build configuration list for PBXNativeTarget "payco-iPadTests" */;
+			buildPhases = (
+				62587F8D1F833C7200862746 /* Sources */,
+				62587F8E1F833C7200862746 /* Frameworks */,
+				62587F8F1F833C7200862746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62587F931F833C7200862746 /* PBXTargetDependency */,
+			);
+			name = "payco-iPadTests";
+			productName = "payco-iPadTests";
+			productReference = 62587F911F833C7200862746 /* payco-iPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62587F9B1F833C7200862746 /* payco-iPadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62587FAB1F833C7200862746 /* Build configuration list for PBXNativeTarget "payco-iPadUITests" */;
+			buildPhases = (
+				62587F981F833C7200862746 /* Sources */,
+				62587F991F833C7200862746 /* Frameworks */,
+				62587F9A1F833C7200862746 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62587F9E1F833C7200862746 /* PBXTargetDependency */,
+			);
+			name = "payco-iPadUITests";
+			productName = "payco-iPadUITests";
+			productReference = 62587F9C1F833C7200862746 /* payco-iPadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62587F751F833C7200862746 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Yaser Tawash";
+				TargetAttributes = {
+					62587F7C1F833C7200862746 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					62587F901F833C7200862746 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 62587F7C1F833C7200862746;
+					};
+					62587F9B1F833C7200862746 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 62587F7C1F833C7200862746;
+					};
+				};
+			};
+			buildConfigurationList = 62587F781F833C7200862746 /* Build configuration list for PBXProject "payco-iPad" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62587F741F833C7200862746;
+			productRefGroup = 62587F7E1F833C7200862746 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62587F7C1F833C7200862746 /* payco-iPad */,
+				62587F901F833C7200862746 /* payco-iPadTests */,
+				62587F9B1F833C7200862746 /* payco-iPadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62587F7B1F833C7200862746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62587F8B1F833C7200862746 /* LaunchScreen.storyboard in Resources */,
+				62587F881F833C7200862746 /* Assets.xcassets in Resources */,
+				62587F861F833C7200862746 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62587F8F1F833C7200862746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62587F9A1F833C7200862746 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62587F791F833C7200862746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62587F831F833C7200862746 /* ViewController.swift in Sources */,
+				62587F811F833C7200862746 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62587F8D1F833C7200862746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62587F961F833C7200862746 /* payco_iPadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62587F981F833C7200862746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62587FA11F833C7200862746 /* payco_iPadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62587F931F833C7200862746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62587F7C1F833C7200862746 /* payco-iPad */;
+			targetProxy = 62587F921F833C7200862746 /* PBXContainerItemProxy */;
+		};
+		62587F9E1F833C7200862746 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62587F7C1F833C7200862746 /* payco-iPad */;
+			targetProxy = 62587F9D1F833C7200862746 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62587F841F833C7200862746 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62587F851F833C7200862746 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62587F891F833C7200862746 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62587F8A1F833C7200862746 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62587FA31F833C7200862746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62587FA41F833C7200862746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62587FA61F833C7200862746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6E5US6N9G5;
+				INFOPLIST_FILE = "payco-iPad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tawashy.payco-iPad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62587FA71F833C7200862746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6E5US6N9G5;
+				INFOPLIST_FILE = "payco-iPad/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tawashy.payco-iPad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		62587FA91F833C7200862746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6E5US6N9G5;
+				INFOPLIST_FILE = "payco-iPadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tawashy.payco-iPadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/payco-iPad.app/payco-iPad";
+			};
+			name = Debug;
+		};
+		62587FAA1F833C7200862746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6E5US6N9G5;
+				INFOPLIST_FILE = "payco-iPadTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tawashy.payco-iPadTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/payco-iPad.app/payco-iPad";
+			};
+			name = Release;
+		};
+		62587FAC1F833C7200862746 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6E5US6N9G5;
+				INFOPLIST_FILE = "payco-iPadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tawashy.payco-iPadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "payco-iPad";
+			};
+			name = Debug;
+		};
+		62587FAD1F833C7200862746 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6E5US6N9G5;
+				INFOPLIST_FILE = "payco-iPadUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tawashy.payco-iPadUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "payco-iPad";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62587F781F833C7200862746 /* Build configuration list for PBXProject "payco-iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62587FA31F833C7200862746 /* Debug */,
+				62587FA41F833C7200862746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62587FA51F833C7200862746 /* Build configuration list for PBXNativeTarget "payco-iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62587FA61F833C7200862746 /* Debug */,
+				62587FA71F833C7200862746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62587FA81F833C7200862746 /* Build configuration list for PBXNativeTarget "payco-iPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62587FA91F833C7200862746 /* Debug */,
+				62587FAA1F833C7200862746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62587FAB1F833C7200862746 /* Build configuration list for PBXNativeTarget "payco-iPadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62587FAC1F833C7200862746 /* Debug */,
+				62587FAD1F833C7200862746 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62587F751F833C7200862746 /* Project object */;
+}
