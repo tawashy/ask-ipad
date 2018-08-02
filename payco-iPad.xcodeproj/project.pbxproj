@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E953EE50AE1662F20A8710A /* Pods_payco_iPad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A9972CA0CE255FA8F05F39 /* Pods_payco_iPad.framework */; };
 		62587F811F833C7200862746 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62587F801F833C7200862746 /* AppDelegate.swift */; };
 		62587F831F833C7200862746 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62587F821F833C7200862746 /* ViewController.swift */; };
 		62587F861F833C7200862746 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62587F841F833C7200862746 /* Main.storyboard */; };
@@ -14,6 +15,15 @@
 		62587F8B1F833C7200862746 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62587F891F833C7200862746 /* LaunchScreen.storyboard */; };
 		62587F961F833C7200862746 /* payco_iPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62587F951F833C7200862746 /* payco_iPadTests.swift */; };
 		62587FA11F833C7200862746 /* payco_iPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62587FA01F833C7200862746 /* payco_iPadUITests.swift */; };
+		62587FB11F85EF6900862746 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62587FB01F85EF6900862746 /* MainViewController.swift */; };
+		62587FB31F860C4600862746 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62587FB21F860C4600862746 /* ItemCell.swift */; };
+		62587FB71F8720B300862746 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62587FB61F8720B300862746 /* UserListViewController.swift */; };
+		626D7D631FB96C9500D77A68 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626D7D621FB96C9500D77A68 /* user.swift */; };
+		626D7D651FB96CCA00D77A68 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626D7D641FB96CCA00D77A68 /* APIService.swift */; };
+		626D7D671FB96D0B00D77A68 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 626D7D661FB96D0B00D77A68 /* LoginViewController.swift */; };
+		62BC6DB01FB96C2100166FBB /* SockeIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62BC6DAF1FB96C2100166FBB /* SockeIO.swift */; };
+		62D6E4791F87CF32000DA5AB /* BroadcastBeacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D6E4781F87CF32000DA5AB /* BroadcastBeacon.swift */; };
+		62D6E47B1F87D916000DA5AB /* BeaconTransmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D6E47A1F87D916000DA5AB /* BeaconTransmitter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12A9972CA0CE255FA8F05F39 /* Pods_payco_iPad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_payco_iPad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BBA0277FD2C6DAB293D5793 /* Pods-payco-iPad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payco-iPad.release.xcconfig"; path = "Pods/Target Support Files/Pods-payco-iPad/Pods-payco-iPad.release.xcconfig"; sourceTree = "<group>"; };
 		62587F7D1F833C7200862746 /* payco-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "payco-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62587F801F833C7200862746 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62587F821F833C7200862746 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,16 @@
 		62587F9C1F833C7200862746 /* payco-iPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "payco-iPadUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62587FA01F833C7200862746 /* payco_iPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = payco_iPadUITests.swift; sourceTree = "<group>"; };
 		62587FA21F833C7200862746 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62587FB01F85EF6900862746 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		62587FB21F860C4600862746 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		62587FB61F8720B300862746 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		626D7D621FB96C9500D77A68 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		626D7D641FB96CCA00D77A68 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		626D7D661FB96D0B00D77A68 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		62BC6DAF1FB96C2100166FBB /* SockeIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SockeIO.swift; sourceTree = "<group>"; };
+		62D6E4781F87CF32000DA5AB /* BroadcastBeacon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastBeacon.swift; sourceTree = "<group>"; };
+		62D6E47A1F87D916000DA5AB /* BeaconTransmitter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconTransmitter.swift; sourceTree = "<group>"; };
+		BC1A2614B0F91EDD10A2781F /* Pods-payco-iPad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-payco-iPad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-payco-iPad/Pods-payco-iPad.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E953EE50AE1662F20A8710A /* Pods_payco_iPad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +97,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24573E4B2C9754F534EF048A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12A9972CA0CE255FA8F05F39 /* Pods_payco_iPad.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		62587F741F833C7200862746 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +112,8 @@
 				62587F941F833C7200862746 /* payco-iPadTests */,
 				62587F9F1F833C7200862746 /* payco-iPadUITests */,
 				62587F7E1F833C7200862746 /* Products */,
+				DCAFBB15EB5707B0DA3425D9 /* Pods */,
+				24573E4B2C9754F534EF048A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,10 +130,15 @@
 		62587F7F1F833C7200862746 /* payco-iPad */ = {
 			isa = PBXGroup;
 			children = (
+				626D7D681FB96D1300D77A68 /* controllers */,
+				62BC6DAE1FB96BF300166FBB /* utils */,
 				62587F801F833C7200862746 /* AppDelegate.swift */,
-				62587F821F833C7200862746 /* ViewController.swift */,
 				62587F841F833C7200862746 /* Main.storyboard */,
+				62587F821F833C7200862746 /* ViewController.swift */,
+				62587FB21F860C4600862746 /* ItemCell.swift */,
 				62587F871F833C7200862746 /* Assets.xcassets */,
+				62D6E47A1F87D916000DA5AB /* BeaconTransmitter.swift */,
+				62D6E4781F87CF32000DA5AB /* BroadcastBeacon.swift */,
 				62587F891F833C7200862746 /* LaunchScreen.storyboard */,
 				62587F8C1F833C7200862746 /* Info.plist */,
 			);
@@ -125,6 +163,35 @@
 			path = "payco-iPadUITests";
 			sourceTree = "<group>";
 		};
+		626D7D681FB96D1300D77A68 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				62587FB01F85EF6900862746 /* MainViewController.swift */,
+				626D7D661FB96D0B00D77A68 /* LoginViewController.swift */,
+				62587FB61F8720B300862746 /* UserListViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		62BC6DAE1FB96BF300166FBB /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				62BC6DAF1FB96C2100166FBB /* SockeIO.swift */,
+				626D7D621FB96C9500D77A68 /* user.swift */,
+				626D7D641FB96CCA00D77A68 /* APIService.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		DCAFBB15EB5707B0DA3425D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC1A2614B0F91EDD10A2781F /* Pods-payco-iPad.debug.xcconfig */,
+				5BBA0277FD2C6DAB293D5793 /* Pods-payco-iPad.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 62587FA51F833C7200862746 /* Build configuration list for PBXNativeTarget "payco-iPad" */;
 			buildPhases = (
+				475C9ACCA77C92F38BFED302 /* [CP] Check Pods Manifest.lock */,
 				62587F791F833C7200862746 /* Sources */,
 				62587F7A1F833C7200862746 /* Frameworks */,
 				62587F7B1F833C7200862746 /* Resources */,
+				15026D5822836F9678317AAD /* [CP] Embed Pods Frameworks */,
+				E9FA44F59A3A891C4DB3C6C0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +324,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15026D5822836F9678317AAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-payco-iPad/Pods-payco-iPad-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cupcake/Cupcake.framework",
+				"${BUILT_PRODUCTS_DIR}/Disk/Disk.framework",
+				"${BUILT_PRODUCTS_DIR}/HGPlaceholders/HGPlaceholders.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cupcake.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Disk.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HGPlaceholders.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-payco-iPad/Pods-payco-iPad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		475C9ACCA77C92F38BFED302 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-payco-iPad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9FA44F59A3A891C4DB3C6C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-payco-iPad/Pods-payco-iPad-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		62587F791F833C7200862746 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62587FB31F860C4600862746 /* ItemCell.swift in Sources */,
+				62587FB11F85EF6900862746 /* MainViewController.swift in Sources */,
+				62D6E47B1F87D916000DA5AB /* BeaconTransmitter.swift in Sources */,
 				62587F831F833C7200862746 /* ViewController.swift in Sources */,
 				62587F811F833C7200862746 /* AppDelegate.swift in Sources */,
+				626D7D631FB96C9500D77A68 /* user.swift in Sources */,
+				626D7D651FB96CCA00D77A68 /* APIService.swift in Sources */,
+				62BC6DB01FB96C2100166FBB /* SockeIO.swift in Sources */,
+				62D6E4791F87CF32000DA5AB /* BroadcastBeacon.swift in Sources */,
+				62587FB71F8720B300862746 /* UserListViewController.swift in Sources */,
+				626D7D671FB96D0B00D77A68 /* LoginViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,31 +567,33 @@
 		};
 		62587FA61F833C7200862746 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC1A2614B0F91EDD10A2781F /* Pods-payco-iPad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6E5US6N9G5;
 				INFOPLIST_FILE = "payco-iPad/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tawashy.payco-iPad";
+				PRODUCT_BUNDLE_IDENTIFIER = "tawashy.nsk-iPad";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		62587FA71F833C7200862746 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BBA0277FD2C6DAB293D5793 /* Pods-payco-iPad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6E5US6N9G5;
 				INFOPLIST_FILE = "payco-iPad/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tawashy.payco-iPad";
+				PRODUCT_BUNDLE_IDENTIFIER = "tawashy.nsk-iPad";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
